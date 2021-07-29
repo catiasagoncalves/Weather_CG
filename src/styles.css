@@ -1,0 +1,101 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgba(228, 233, 252, 0.856);
+}
+
+.sunrise {
+  font-size: 13px;
+  position: relative;
+  left: 500px;
+  top: -35px;
+}
+.sunrise-icon {
+  width: 50px;
+}
+.sunset {
+  font-size: 13px;
+  position: relative;
+  left: 650px;
+  top: -83px;
+}
+.sunset-icon {
+  width: 50px;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 0;
+  padding: 0;
+}
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  font-size: 13px;
+  list-style: none;
+}
+.temperature {
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.weather-app {
+  border: 1px solid;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 20px;
+  max-width: 2000px;
+}
+
+.card-body {
+  background-color: rgba(228, 233, 252, 0.856);
+}
+
+.heavy-icon {
+  background-color: rgba(228, 233, 252, 0.856);
+  padding-top: 8px;
+  color: rgba(111, 131, 196, 0.856);
+  font-size: 50px;
+  text-align: center;
+}
+.storm-icon {
+  background-color: rgba(228, 233, 252, 0.856);
+  padding-top: 8px;
+  color: rgba(64, 74, 107, 0.856);
+  font-size: 50px;
+  text-align: center;
+}
+.rain-icon {
+  background-color: rgba(228, 233, 252, 0.856);
+  padding-top: 8px;
+  color: rgba(30, 133, 202, 0.87);
+  font-size: 50px;
+  text-align: center;
+}
+.cloud-sun-icon {
+  background-color: rgba(228, 233, 252, 0.856);
+  padding-top: 8px;
+  color: rgba(121, 179, 245, 0.856);
+  font-size: 50px;
+  text-align: center;
+}
+.sun-icon {
+  background-color: rgba(228, 233, 252, 0.856);
+  padding-top: 8px;
+  color: rgb(255, 119, 7, 0.856);
+  font-size: 50px;
+  text-align: center;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.weather {
+  text-transform: capitalize;
+}
