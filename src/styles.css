@@ -99,3 +99,6 @@ h5 {
 .weather {
   text-transform: capitalize;
 }
+.github {
+  text-decoration: none;
+}
