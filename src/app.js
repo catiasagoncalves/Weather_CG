@@ -1,4 +1,3 @@
-//Feature #1
 let now=new Date();
 let hours=now.getHours();
 let minutes=now.getMinutes();
@@ -7,7 +6,7 @@ let day=days[now.getDay()];
 let h1=document.querySelector ("li");
 h1.innerHTML=`${day}, ${hours}:${minutes}`;
 
-//Feature #2
+
 function showLocation(event) {
   event.preventDefault();
   let apiKey = "0bca7a6e963a4888aee2f2257270c526";
@@ -18,7 +17,7 @@ let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${
 let passwordForm = document.querySelector("#location-submit");
 passwordForm.addEventListener("submit", showLocation);
 
-//Real Time Temperature//
+
 function showTemperature(response) {
   console.log(response);
   let city = response.data.name;
@@ -33,7 +32,7 @@ function showTemperature(response) {
 }
 
 
-//Bonus Point
+
 function showWeather(response) {
 let currentTemperature = document.querySelector("#temperature");
 currentTemperature.innerHTML = Math.round(response.data.main.temp);
